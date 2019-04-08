@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>post</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>SMNetwork.tokenPostRequest(&lt;##&gt;, parameters: &lt;##&gt;, successBlock: { (dic, msg) in
+
+}, errorBlock: { (code, msg) in
+    
+}, failureBlcok: { (err) in
+    
+})
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>044ADECC-80BA-469A-B0BA-1C7B30278527</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>post</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>post</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

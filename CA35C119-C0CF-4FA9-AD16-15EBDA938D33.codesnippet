@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>postloading</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>        SMLoadingView.showInView(view: self.view, userInteractionEnabled: false)
+        SMNetwork.tokenPostRequest(&lt;##&gt;, parameters: &lt;##&gt;, successBlock: { (dic, msg) in
+            SMLoadingView.hidden()
+        }, errorBlock: { (code, msg) in
+            SMLoadingView.hidden()
+        }, failureBlcok: { (err) in
+            SMLoadingView.hidden()
+        })
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>CA35C119-C0CF-4FA9-AD16-15EBDA938D33</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>postloading</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>postloading</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
