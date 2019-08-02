@@ -3,31 +3,33 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>initCell</string>
+	<string>InitView</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
-    if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
+	<string>- (instancetype)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
         [self setupSubviews];
     }
     return self;
 }
 
 - (void)setupSubviews{
-    self.selectionStyle = UITableViewCellSelectionStyleNone;
+
 }
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>72C0EF74-9A88-4059-B966-7186A9FFFEF1</string>
+	<string>27932640-2B78-4AFC-9569-0C30F2FF9853</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>initCell</string>
+	<string>InitView</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>initCell</string>
+	<string>InitView</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
