@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string></string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    let tableView = UITableView(frame: CGRect.zero, style: .plain)
+    view.addSubview(tableView)
+    tableView.snp.makeConstraints { make in
+        make.left.right.equalToSuperview()
+        make.bottom.equalTo(0)
+        make.top.equalToSuperview()
+    }
+    tableView.delegate = self
+    tableView.dataSource = self
+    tableView.separatorStyle = .none
+    tableView.register(CCCollectCell.self, forCellReuseIdentifier: "CCCollectCell")
+    tableView.backgroundColor = RGB(r: 247, g: 247, b: 247)
+    tableView.tableFooterView = UIView()
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>8FBB9927-ABAE-4AF8-9446-A946526AC891</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>tableViewinit</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>tableViewinit</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

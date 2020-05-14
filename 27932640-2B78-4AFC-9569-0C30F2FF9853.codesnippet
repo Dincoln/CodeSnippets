@@ -11,6 +11,7 @@
 	<key>IDECodeSnippetContents</key>
 	<string>- (instancetype)initWithFrame:(CGRect)frame
 {
+    
     self = [super initWithFrame:frame];
     if (self) {
         [self setupSubviews];
@@ -20,12 +21,13 @@
 
 - (void)setupSubviews{
 
+    
 }
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>27932640-2B78-4AFC-9569-0C30F2FF9853</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
 	<string>InitView</string>
 	<key>IDECodeSnippetTitle</key>

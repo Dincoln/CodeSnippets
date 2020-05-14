@@ -3,26 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>setupSubViews</string>
+	<string>make</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    // MARK: - setupSubViews
-    func setupSubViews () {
-        
-        
-    }
-</string>
+	<string>make.&lt;##&gt;.equalTo(&lt;#T##other: ConstraintRelatableTarget##ConstraintRelatableTarget#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B675559D-3694-4FD1-B27B-74A4633251B8</string>
+	<string>6E953444-CCA4-467B-B51D-8EDEAE1CAAD7</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>setupSubViews</string>
+	<string>make</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>setupSubViews</string>
+	<string>make</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
